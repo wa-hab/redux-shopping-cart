@@ -2,11 +2,8 @@ import "./catalog.css";
 import ProductThumbnail from "../ProductThumbnail/productThumbnail";
 import { ProductThumbnailProps, allFood, ProductCategory } from "../../data";
 import Navbar from "../Navbar/Navbar";
-import { useDispatch } from "react-redux";
 
 function Catalog() {
-    const dispatch = useDispatch();
-
 	return (
 		<>
 			<Navbar></Navbar>
